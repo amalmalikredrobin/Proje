@@ -1,0 +1,25 @@
+
+<div  class="p-3 mb-2 bg-light text-dark" class="shadow-sm p-3 mb-5 bg-white rounded">
+    <nav class="navbar navbar-default" class="row justify-content-md-center">
+        <div class="container-fluid" >
+          <div class="navbar-header" class="row justify-content-md-center">
+            <h1 >Kayıt</h1>
+          </div>
+          <a href="/yonetici_paneli"><h4>Yönetici Paneli</h4></a>
+        </div>
+    </nav>
+</div><br>
+
+<div class="row justify-content-md-center" class="col-9 " class="shadow-sm p-3 mb-5 bg-white rounded">
+  </div>
+    </form>
+      <button class="btn btn-outline-danger" (click)="Vazgec()">Vazgeç</button>
+      <div [ngClass]="sonuc.islem ? 'alert alert-success':'alert alert-danger'" *ngIf="sonuc.mesaj?.length>0">
+          {{sonuc.mesaj}}</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
